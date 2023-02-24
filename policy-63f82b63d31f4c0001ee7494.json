@@ -1,0 +1,42 @@
+{
+  "_id": "63f82b63d31f4c0001ee7494",
+  "id": "63f82b63d31f4c0001ee7494",
+  "name": "httpbin-private-policy",
+  "org_id": "63f2f3a8bbaf2d00013fc2e5",
+  "rate": 1000,
+  "per": 60,
+  "quota_max": -1,
+  "quota_renewal_rate": -1,
+  "throttle_interval": -1,
+  "throttle_retry_limit": -1,
+  "max_query_depth": -1,
+  "access_rights": {
+    "cbccf5ddb31c4c9849081aa54ddf991b": {
+      "api_name": "HttpBin API - Private",
+      "api_id": "cbccf5ddb31c4c9849081aa54ddf991b",
+      "versions": [
+        "Default"
+      ],
+      "allowed_urls": [],
+      "restricted_types": [],
+      "limit": null,
+      "field_access_rights": [],
+      "allowance_scope": ""
+    }
+  },
+  "hmac_enabled": false,
+  "active": true,
+  "is_inactive": false,
+  "date_created": "2023-02-24T03:13:39.802833Z",
+  "tags": [],
+  "key_expires_in": 2592000,
+  "partitions": {
+    "quota": true,
+    "rate_limit": true,
+    "complexity": false,
+    "acl": true,
+    "per_api": false
+  },
+  "last_updated": "1677208419",
+  "meta_data": {}
+}
